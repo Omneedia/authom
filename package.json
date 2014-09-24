@@ -9,14 +9,14 @@
     "oauth",
     "http"
   ],
-  "homepage": "https://github.com/jed/authom",
+  "homepage": "https://github.com/Omneedia/authom",
   "contributors": [
     "Mark Lussier <mlussier@gmail.com> (https://github.com/intabulas)"
   ],
   "main": "./lib/authom",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jed/authom.git"
+    "url": "git://github.com/Omneedia/authom.git"
   },
   "engines": {
     "node": ">=0.6.15"
