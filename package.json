@@ -1,20 +1,19 @@
 {
-  "author": "Jed Schmidt <tr@nslator.jp> (http://jed.is)",
+  "author": {
+    "name": "Jed Schmidt",
+    "email": "tr@nslator.jp"
+  },
   "name": "authom",
-  "description": "A dependency-free multi-service authentication tool for node.js",
-  "version": "0.4.31",
+  "description": "Authom Fork for omneedia framework",
+  "version": "1.0.0",
   "keywords": [
-    "auth",
-    "authorization",
-    "oauth",
-    "http"
   ],
   "homepage": "https://github.com/Omneedia/authom",
   "contributors": [
-    "Mark Lussier <mlussier@gmail.com> (https://github.com/intabulas)"
+
   ],
   "private": "true",
-  "main": "./lib/authom",
+  "main": "./lib/authom.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/Omneedia/authom.git"
@@ -23,14 +22,23 @@
     "node": ">=0.6.15"
   },
   "devDependencies": {
-    "express": "~2.5.4",
-	"xcas": "~0.1.0"
   },
   "optionalDependencies": {
-    "oauth": ">=0.9.6"
   },
   "scripts": {
-    "start": "sudo node ./example/server.js"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "readme": "",
+  "readmeFilename": "",
+  "bugs": {
+    "url": "https://github.com/Omneedia/authom/issues"
+  },
+  "dependencies": {
+    
+  },
+  "_id": "authom@1.0.0",
+  "dist": {
+  },
+  "_resolved": "git+https://git@github.com/Omneedia/authom.git",
+  "_from": "git+https://git@github.com/Omneedia/authom.git"
 }
